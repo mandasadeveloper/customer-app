@@ -9,4 +9,4 @@ ReactDOM.render(
 <Index/> 
 </HashRouter>,
 document.getElementById('root') 
-);
+); 
