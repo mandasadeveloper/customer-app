@@ -6,7 +6,7 @@ import Index from './Admin';
 import { HashRouter } from 'react-router-dom';
 ReactDOM.render(
 <HashRouter>
-<Index/>
+<Index/> 
 </HashRouter>,
 document.getElementById('root') 
 );
