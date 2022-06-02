@@ -1,0 +1,387 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  /* font-family: "Gill Sans Extrabold", sans-serif; */
+}
+
+body{
+  background-color: #f2f2f2 !important;
+}
+
+.profile-logo img{
+  border-radius: 50%;
+}
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content-container .left-nav-wrapper {
+  width: 25%;
+  height:90vh;
+  background: #fafafa;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.content-container ul.navigation-panel {
+  padding:20px;
+  margin: 0;
+}
+
+.right-content-wrapper .right-content-heading{
+text-align: center;
+padding: 2%;
+font-size: 33px;
+}
+
+.header-2{
+  display: flex;
+justify-content: space-between;
+width: 96%;
+margin: auto;
+}
+
+.address-btn{
+  padding: 20px;
+}
+
+.right-content{
+  max-width: 80%;
+  margin: auto;
+  background: #fafafa;
+  box-sizing: border-box;
+  overflow: auto;
+  border: 3px solid #dfdfdf;
+}
+.navigation-panel li a{
+text-decoration: none;
+color: black;
+display: flex;
+}
+
+.navigation-panel li:hover{
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+}
+
+.navigation-panel li a img{
+  border-radius: 50%;
+}
+.navigation-panel li a p{
+  align-self: center;
+  margin-left: 20px;
+}
+.content-container .left-nav-wrapper ul li {
+  padding: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.content-container .left-nav-wrapper ul li.active {
+  background: #efefef;
+}
+.content-container .right-content-wrapper {
+  width: 100%;
+  padding-left: 15px;
+}
+
+.content-container .right-content-wrapper p {
+margin-top: 0px
+}
+
+table thead th,td{
+  padding: 10px 20px;
+  }
+
+.profile-head{
+  width: 100%;
+  height: 100px;
+  background:#34695F;
+  /* border-radius: 0 0 20px 20px; */
+  display: flex;
+  padding: 8% 0 8% 10%;
+  color: #f2f2f2;
+}
+
+.profile-logo{
+width: 50px;
+height: 50px;
+background: aliceblue;
+border-radius: 50%;
+}
+
+.profile-name{
+height: 50px;
+width: 50%;
+margin-left: 7%;
+padding-top: 3%;
+}
+
+.profile-name h4{
+  text-transform: uppercase;
+}
+
+@media (max-width: 560px) {
+  .content-container {
+      position: relative;
+  }
+
+
+
+  .content-container .left-nav-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #fff0;
+      position: absolute;
+      left: -250px;
+      transition: all 0.5s;
+  }
+
+  .content-container .right-content-wrapper {
+      margin-left: 25px;
+  }
+
+
+
+  ul.navigation-panel {
+      width: 100%;
+      background: #dfdfdf;
+      margin-top: 0;
+  }
+  #left-panel {
+      left: -250px;
+  }
+
+
+}
+hr{
+  color: white;
+}
+.order-header{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: #34695f;
+  color: white;
+  padding: 10px;
+}
+
+.all-orders{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+transition: 2s all;
+}
+
+.view_order{
+  cursor: pointer;
+}
+
+textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+table,tr{
+  border-top: 1px solid #dfdfdf;
+  width: 100%;
+  border-collapse: collapse;
+}
+th{
+  text-align: right;
+}
+td{
+  text-align: left;
+}
+
+.parant-box{
+  position: relative;
+}
+
+.box{
+  width: 150px;
+  border: 1px groove gray;
+  border-radius: 5px;
+  height: 100px;
+  margin: 10px;
+}
+.child-box{
+text-align: center;
+padding: 10px 0;
+}
+
+/* profile */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],input[type=date],input[type=email],select{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=radio],input[type=checkbox]{
+  width: 12%;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.form-data{
+  width: 80%;
+  margin: 5% auto;
+  position: relative;
+}
+
+.flex-box span svg:hover{
+  cursor: pointer;
+  background: blanchedalmond;
+}
+
+input[type=submit] {
+  background-color: #6a59ca;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  width: 10%;
+  margin: 5% auto
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 40%;
+}
+
+.flex-box{
+  margin: 2%;
+  text-align: center;
+  min-height: 250px;
+  position: relative;
+  width: 29.10%;
+  border-radius: 8px;
+  background: #dad4d4;
+  overflow: hidden;
+}
+.flex-box .address-btn{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+.flex-box .address-btn p{
+ 
+  width: 100%;
+  background: #34695f;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.flex-box div >p{
+  width: 100%;
+  text-align: left;
+  padding: 0 25px;
+  margin: 0;
+}
+
+.flex-box div{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+}
+.address-btn p:hover{
+  background-color: #45a049;
+}
+
+.flex-box div>span{
+position: absolute;
+right: 14px;
+top: -45px;
+}
+.flex-box:hover{
+  box-shadow: 0 4px 8px 0 rgba(14, 11, 223, 0.527), 0 6px 20px 0 rgba(6, 133, 27, 0.19);
+}
+/* Clear floats after the columns */
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.parant-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+.button-edit {
+background-color:azure;
+color: rgb(41, 144, 212);
+border: none;
+position: absolute;
+top: 0;
+right: 0;
+}
+.user-info-edit{
+  margin-top: 5%;
+  font-size: 30px;
+  border: 1px solid gray;
+  padding: 13px;
+  width: 32%;
+  transform: skew(-23deg);
+  background: #34695f;
+  color: white;
+  margin-left: -29px;
+}
+
+@media screen and (max-width: 1080) {
+.flex-box{
+  width: 253px;
+}
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.contact-us p{
+  padding: 5px;
+  margin: 10px;
+  background: #34695f;
+width: 145px;
+text-align: center;
+color: white;
+border-radius: 5px;
+  }
+  .contact-us > div{
+    float: right;
+    padding: 10px;
+  }
