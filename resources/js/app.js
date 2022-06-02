@@ -8,5 +8,5 @@ ReactDOM.render(
 <HashRouter>
 <Index/>
 </HashRouter>,
-document.getElementById('root')
+document.getElementById('root') 
 );
